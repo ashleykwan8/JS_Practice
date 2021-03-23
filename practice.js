@@ -12,6 +12,7 @@
 // const ageAlert = alert("You dog is " + dogYears + " years old!");
 
 // TODO: Stanford Karel IDE FUNCTION PRACTICE
+// NOTE: Have Karel go from bottom left corner to top right corner (5x5 grid)
 
 // function main(){
 //     stairCase();
@@ -25,6 +26,43 @@
 //     turnLeft();
 //     move();
 //     turnRight();
-//  }
 
+// NOTE: Have Karel make a chess board with blue squares 
+// function main(){
+//     threeBeepers();
+//     turnLeft();
+//     twoBeepers();
+//     turnCorner();
+//     threeBeepers();
+//     turnLeft();
+//     twoBeepers();
+//     turnCorner();
+//     threeBeepers();
+  
+//   }
+//   function threeBeepers() {
+//      putBeeper();
+//      move();
+//      move();
+//      putBeeper();
+//      move();
+//      move();
+//      putBeeper();
+//   }
+//   function twoBeepers() {
+//      move();
+//      turnLeft();
+//      move();
+//      putBeeper();
+//      move();
+//      move();
+//      putBeeper();
+//      move();
+//   }
+  
+//   function turnCorner() {
+//      turnRight();
+//      move();
+//      turnRight();
+//   }
 
