@@ -9,7 +9,22 @@
 // const dogAge = prompt("How old is your old?");
 // let dogYears = (dogAge - 2) * 4 + 21;
 // console.log(dogYears);
-
 // const ageAlert = alert("You dog is " + dogYears + " years old!");
+
+// TODO: Stanford Karel IDE FUNCTION PRACTICE
+
+// function main(){
+//     stairCase();
+//     stairCase();
+//     stairCase();
+//     stairCase();
+ 
+//  }
+//  function stairCase() {
+//     move();
+//     turnLeft();
+//     move();
+//     turnRight();
+//  }
 
 
