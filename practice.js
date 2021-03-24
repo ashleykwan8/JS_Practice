@@ -79,6 +79,6 @@
 
 // TODO: BMI Calculator exercise
 // function bmiCalculator(weight,height) {
-//     const bmi = weight / Math.pow(height, 2);
-//     return bmi;
+    // const bmi = weight / Math.pow(height, 2); <--- Math.pow() calculates the base to the exponent 
+//     return Math.round(bmi);
 // }
