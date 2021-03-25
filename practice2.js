@@ -85,3 +85,12 @@
 //     console.log(output);
 //     count++;
 // }
+
+// TODO: Buying Lunch Generator 
+function whosPaying(names) {
+    
+        var index = Math.random();
+        index = index * names.length;
+        index = Math.floor(index);
+        return names[index] + " is going to buy lunch today!";
+}    
