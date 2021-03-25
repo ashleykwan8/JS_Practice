@@ -70,6 +70,7 @@
 // var output = [];
 // var count = 1
 // function fizzBuzz() {
+//     while(count <= 100) {
 //     if (count % 3 === 0 && count % 5 === 0){
 //         output.push("fizzbuzz");
 //     }
@@ -84,13 +85,52 @@
 //     }
 //     console.log(output);
 //     count++;
+
+//     }  
+// }
+// NOTE: UPDATED CODE
+// var output = [];
+
+// function fizzBuzz() {
+//     for(var count=1;count<=100;count++ {
+//     if (count % 3 === 0 && count % 5 === 0){
+//         output.push("fizzbuzz");
+//     }
+//     else if (count % 3 === 0){
+//         output.push("fizz");
+//     }
+//     else if (count % 5 === 0){
+//         output.push("buzz");
+//     }
+//     else {
+//         output.push(count);
+//     }
+//     console.log(output);
+//     count++;
+
+//     }  
 // }
 
 // TODO: Buying Lunch Generator 
-function whosPaying(names) {
+// function whosPaying(names) {
     
-        var index = Math.random();
-        index = index * names.length;
-        index = Math.floor(index);
-        return names[index] + " is going to buy lunch today!";
-}    
+//         var index = Math.random();
+//         index = index * names.length;
+//         index = Math.floor(index);
+//         return names[index] + " is going to buy lunch today!";
+// } 
+// whosBuying(['Bob','Jane','Sue',"James"]); 
+
+// TODO: 99 Bottles of Beer on the Wall loop challenge
+// function beer() {
+//     var beer = 99
+//     while(beer>=1){
+//         var beerDown = beer - 1
+//         console.log(beer+" bottles of beer on the wall " + beer + " bottles of beer! You take one down, pass it around " + beerDown + " bottles of beer on the wall");
+//         beer--;
+//         if(beer === 1){
+//             console.log(beer+" bottle of beer on the wall " + beer + " bottle of beer! You take one down, pass it around" + " 99 bottles of beer on the wall");
+//         beer--;
+//         }
+//     }
+// }
