@@ -15,3 +15,14 @@
 
 // calculator(4,5,add());
 // calculator(4,5,multiply());
+
+// TODO: Constructor Functions
+// function HouseKeeper (name, yearsOfExperience, duties)  {
+//     this.name = name;
+//     this.yearsOfExperience = yearsOfExperience;
+//     this.duties = duties;
+// }
+
+// var houseKeeper1 = new HouseKeeper ('Jane', 12, ['vacuum','mopping','dusting']);
+
+// houseKeeper1.name /*Jane*/
