@@ -26,3 +26,13 @@
 // var houseKeeper1 = new HouseKeeper ('Jane', 12, ['vacuum','mopping','dusting']);
 
 // houseKeeper1.name /*Jane*/
+
+// TODO: Constructor Function with methods
+// function HouseKeeper (name, yearsOfExperience, duties)  {
+//     this.name = name;
+//     this.yearsOfExperience = yearsOfExperience;
+//     this.duties = duties,
+//     this.cleaning = function () {
+//     alert("I'm cleaning right now.");
+//     }
+// }
