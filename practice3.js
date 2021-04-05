@@ -36,3 +36,19 @@
 //     alert("I'm cleaning right now.");
 //     }
 // }
+
+// TODO: Callback functions: 
+// function anotherEventListener(typeOfEvent, callback) {
+//     var eventThatHappened = {
+//         eventType: 'keypress',
+//         key : 'p',
+//         durationOfKey : 2
+//     }
+//     if (eventThatHappened.eventType === typeOfEvent) {
+//         callback(eventThatHappened);
+//     }
+// }
+// In the console 
+// anotherEventListner("keypress", function(event) {
+//     console.log(event);
+//     });
